@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/96401a7514.css" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script defer src="https://kit.fontawesome.com/96401a7514.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="container-sm mt-3">
+        <h2 class="text-center">Rock Paper Scissors</h2>
+        <div>
+            <div class="input-group mb-3 col-sm-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Your bet</span>
+                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="bet" min="0">
+            </div>
+            <div>
+                <button class="btn btn-light" type="button" data-shape-id="-1"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button class="btn btn-light" type="button" data-shape-id="0"><i class="fa-solid fa-hand-scissors"></i></button>
+                <button class="btn btn-light" type="button" data-shape-id="1"><i class="fa-solid fa-hand"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
